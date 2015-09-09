@@ -6,9 +6,10 @@ String author=  "Bruce Alan Martin";
 // GLOBAL VARIABLES //
 float x,y;
 int h,w;
-
+  
 // Setup:  screen size, initialization. //
 void setup() {
+
   size(500, 500);
   x=  width/2;
   y=  height/2;
@@ -23,9 +24,13 @@ void draw() {
   text( author, 10, height-10 );
   text( w+"x"+h, width/2,height-10 );
   //
-  ellipse(x, y, w, h);
-}
 
+ 
+
+  ellipse(x, y, w, h);
+  fill(random(255), random(255), random(255)); //makes color effects
+text("matica",x,y);
+}
 
 //  Handle mouse clicks //
 void mousePressed() {
