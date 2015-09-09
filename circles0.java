@@ -2,10 +2,10 @@
 
 // Setup:  screen size. //
 void setup() {
-  size(200, 200);                // Try changing the width & height.
+  size(600, 500);                // I made it bigger.
 }
 
 // Next frame:  circle at (x,y). //
 void draw() {
-  ellipse( 50,50, 30,30 );       // Try changing the (x,y) and size.
+  ellipse( width/2, height/2 , 30,30 );       // I placed the ellipse in the middle.
 }
